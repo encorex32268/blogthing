@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Do nothing -->
+    <item
+        android:state_pressed="false"
+        android:drawable="@color/design_default_color_primary"
+        ></item>
+    <!--Do pressed -->
+    <item  android:state_pressed="true"
+        android:drawable="@color/colorAccent"
+        ></item>
+
+</selector>
+
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android" >-->
+<!--<item android:state_pressed="true" //true表示元件被按下時套用，false表示元件未被按下時套用-->
+<!--android:drawable="@drawable/pressed" />-->
+
+<!--<item android:state_focused="true" //true表示元件正被操作時套用，false表示元件未被操作時套用-->
+<!--android:drawable="@drawable/focused" />-->
+
+<!--<item android:state_selected="true" //true表示元件被選定時套用，false表示元件未被選定時套用-->
+<!--android:drawable="@drawable/selected" />-->
+
+<!--<item android:state_checkable="true" //true表示元件項目能被勾選時套用，false表示元件項目不能被勾選時套用-->
+<!--android:drawable="@drawable/checkable" />-->
+
+<!--<item android:state_checked="true" //true表示元件項目被勾選時套用，false表示元件項目未被勾選時套用-->
+<!--android:drawable="@drawable/checked" />-->
+
+<!--<item android:state_enabled="true" //true表示元件可以使用時套用，false表示元件不可使用時套用-->
+<!--android:drawable="@drawable/enabled" />-->
+
+<!--<item android:state_activated="true" //true表示元件在作用中時套用，false表示元件不在作用中時套用-->
+<!--android:drawable="@drawable/activated" />-->
+
+<!--<item android:state_hovered="true" //API Lv 14 之後可用，等同 android:state_focused-->
+<!--android:drawable="@drawable/hovered" />-->
+
+<!--<item android:state_window_focused="true" //true表示當程式正在操作時套用，false表示當程式不在操作時套用-->
+<!--android:drawable="@drawable/window_focused" />-->
+
+<!--<item android:drawable="@drawable/normal" /> //預設值-->
+<!--</selector>-->
