@@ -2,26 +2,13 @@ public class Main {
 
 
     private enum Action{
-        UP("¤W"),DOWN("¤U"),LEFT("¥ª"),RIGHT("¥k");
+        UP,DOWN,LEFT,RIGHT;
 
-        private final String string ;
-
-        Action(String string) {
-            this.string = string;
-        }
-
-        public String getString() {
-            return string;
-        }
     }
-
 
     public static void main(String[] args) {
 
-       for(Action action : Action.values())
-        {
-            System.out.println(action.getString());
-        }
+       doAction(Action.DOWN);
     }
 
     private static void doAction(Action action) {
